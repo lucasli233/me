@@ -4,9 +4,9 @@ import "./Main.css";
 const Main = () => {
   return (
     <section id="main">
-      <h1>Hello, I'm</h1>
-      <h2>Lucas Li</h2>
-      <h3>AND THIS IS MY RESUME</h3>
+      <div className="p1">Hello, I'm</div>
+      <div className="p2">Lucas Li</div>
+      <div className="p3">AND THIS IS MY RESUME</div>
     </section>
   );
 };

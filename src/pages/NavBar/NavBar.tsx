@@ -1,21 +1,30 @@
 import React, { useEffect } from "react";
 import { Link } from "react-scroll";
-import { animateScroll as scroll } from "react-scroll";
+import { animateScroll } from "react-scroll";
 import "./NavBar.css";
 
 const NavBar = () => {
   return (
     <div className="nav">
-      <a className="link" onClick={() => scroll.scrollToTop}>
+      <div className="link home" onClick={() => animateScroll.scrollToTop() } >
         Home
-      </a>
+      </div>
       <span></span>
-      <a>
-        <Link className="link" to="resume" smooth={true} duration={1000}>
+      <div>
+        <Link className="link resume" to="resume" smooth={true} duration={1000} offset={-75}>
           Resume
         </Link>
-      </a>
+      </div>
+      <span></span>
+      <div>
+        <Link className="link contact" to="contact" smooth={true} duration={1000} offset={-75}>
+          ontact
+        </Link>
+      </div>
     </div>
   );
 };
+
+
 export default NavBar;
+
