@@ -18,7 +18,7 @@ const NavBar = () => {
       <span></span>
       <div>
         <Link className="link contact" to="contact" smooth={true} duration={1000} offset={-75}>
-          ontact
+          Contact
         </Link>
       </div>
     </div>
