@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
-import { Link } from "react-scroll";
-import { animateScroll } from "react-scroll";
+import { Link, animateScroll } from "react-scroll";
 import "./NavBar.css";
 
 const NavBar = () => {
