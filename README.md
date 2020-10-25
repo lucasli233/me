@@ -1,4 +1,4 @@
-https://oblivion233.github.io/react-portfolio/
+https://lucasli233.github.io/react-portfolio
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
