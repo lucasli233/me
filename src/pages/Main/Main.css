@@ -3,8 +3,8 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  height: 60vw;
-  background-image: url("./face.jpg");
+  height: 100vh;
+  background-image: url("./face.JPG");
   background-size: cover;
   background-position: center;
 }
@@ -14,17 +14,18 @@
 } */
 
 .titlebox {
-  margin-top: 20vw;
+  margin-top: 35vh;
 }
 
 .p1 {
-  font-size: 5vw;
+  font-size: 4vw;
   font-weight: 300;
   bottom: 0;
   /* margin-top: 20vh; */
   margin-bottom: 0;
   /* margin: 0 0 0 0; */
   vertical-align: text-bottom;
+
   /* float: bottom; */
   /* justify-content: baseline; */
   /* border: 0;
@@ -32,10 +33,11 @@
 }
 
 .p2 {
-  letter-spacing: 2px;
-  font-size: 9vw;
-  font-weight: 800;
-  line-height: 0.75em;
+  /* letter-spacing: 0px; */
+  font-size: 7vw;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+
   /* height: 35px; */
   /* margin: 0;
   border: 0;
@@ -43,9 +45,11 @@
 }
 
 .p3 {
-  font-size: 2vw;
+  font-size: 1.6vw;
   font-weight: 400;
-  margin: 1em;
+  margin: 0.5em;
+  color: #bfbfbf;
+  letter-spacing: 1px;
   /* line-height: 34px;
   height: 35px; */
   /* margin: 0 0 300px 0; */
