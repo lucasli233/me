@@ -4,7 +4,10 @@ import "./Resume.css";
 const Resume = () => {
   return (
     <section id="resume">
-      <h1 className="resume-text">Resume</h1>
+      <div className="resume-title">
+        <h1 className="resume-t1">My</h1>
+        <h1 className="resume-t2">Resume</h1>
+      </div>
     </section>
   );
 };

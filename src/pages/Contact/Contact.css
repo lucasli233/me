@@ -1,4 +1,27 @@
 #contact {
-    background-color: darkgrey;
-    height: 1000px;
-  }
+  background-color: #333333;
+  background-color: gray;
+  height: 1000px;
+}
+
+.contact-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: white;
+  /* font-size: 15px; */
+  font-size: 1.5vw;
+  margin: 2em 0 2em 0; /* 2em top and bot **/
+}
+.contact-t1 {
+  font-weight: 500;
+}
+
+.contact-t1::after {
+  content: " ";
+  white-space: pre;
+}
+
+.contact-t2 {
+  font-weight: 900;
+}

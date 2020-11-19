@@ -6,7 +6,10 @@ import "./Contact.css";
 const Contact = () => {
   return (
     <section id="contact">
-      <h1 className="contact-text">contact</h1>
+      <div className="contact-title">
+        <h1 className="contact-t1">Get</h1>
+        <h1 className="contact-t2">In Touch</h1>
+      </div>
     </section>
   );
 };

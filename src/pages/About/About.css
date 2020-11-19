@@ -1,9 +1,9 @@
-#resume {
-  background-color: #333333;
+#about {
+  background-color: darkgrey;
   height: 1000px;
 }
 
-.resume-title {
+.about-title {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -11,15 +11,15 @@
   font-size: 1.5vw;
   margin: 2em 0 2em 0; /* 2em top and bot **/
 }
-.resume-t1 {
+.about-t1 {
   font-weight: 500;
 }
 
-.resume-t1::after {
+.about-t1::after {
   content: " ";
   white-space: pre;
 }
 
-.resume-t2 {
+.about-t2 {
   font-weight: 900;
 }

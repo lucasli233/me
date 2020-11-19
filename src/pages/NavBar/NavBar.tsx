@@ -1,28 +1,47 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { Link, animateScroll } from "react-scroll";
 import "./NavBar.css";
 
 const NavBar = () => {
+  const [navbar, setNavbar]= useState(false);
+
+  const changeBackGround = () => {
+    if(window.scrollY >= 300) {
+      setNavbar(true);
+    }
+    else{
+      setNavbar(false);
+    }
+  }
+
+  window.addEventListener('scroll', changeBackGround);
+
+
   return (
-    <div className="nav">
-      <div className="link home" onClick={() => animateScroll.scrollToTop() } >
+    <nav className={navbar ? "nav active" : "nav"}>
+      <div className="link-active home" onClick={() => animateScroll.scrollToTop() } >
         Home
       </div>
-      <span></span>
       <div>
-        <Link className="link resume" to="resume" smooth={true} duration={1000} offset={-75}>
+        <Link className="link resume" to="resume" smooth={true} duration={1000} offset={-80}>
           Resume
         </Link>
       </div>
-      <span></span>
       <div>
-        <Link className="link contact" to="contact" smooth={true} duration={1000} offset={-75}>
+        <Link className="link about" to="about" smooth={true} duration={1000} offset={-80}>
+          About
+        </Link>
+      </div>
+      <div>
+        <Link className="link contact" to="contact" smooth={true} duration={1000} offset={-80}>
           Contact
         </Link>
       </div>
-    </div>
+    </nav>
   );
 };
+
+
 
 
 export default NavBar;
