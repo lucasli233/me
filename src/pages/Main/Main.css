@@ -16,7 +16,7 @@
 }
 
 .p1 {
-  font-size: 4vw;
+  font-size: 60px;
   font-weight: 300;
   bottom: 0;
   margin-bottom: 0;
@@ -24,13 +24,14 @@
 }
 
 .p2 {
-  font-size: 7vw;
+  font-size: 120px;
   font-weight: 500;
   font-family: Arial, Helvetica, sans-serif;
+  margin-top: -15px;
 }
 
 .p3 {
-  font-size: 1.6vw;
+  font-size: 23px;
   font-weight: 400;
   margin: 0.5em;
   color: #bfbfbf;

@@ -1,6 +1,6 @@
 #about {
   background-color: darkgrey;
-  height: 1000px;
+  height: 100vh;
 }
 
 .about-title {
@@ -8,11 +8,11 @@
   flex-direction: row;
   justify-content: center;
   color: white;
-  font-size: 1.5vw;
+  font-size: 22px;
   margin: 2em 0 2em 0; /* 2em top and bot **/
 }
 .about-t1 {
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .about-t1::after {

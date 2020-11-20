@@ -6,23 +6,26 @@
   top: 0;
   letter-spacing: 4px;
   font-size: 17px;
-  font-weight: 400;
+  font-weight: 450;
   box-sizing: border-box;
   align-items: center;
   justify-content: center;
   color: white;
   background: transparent;
   overflow: hidden;
+  transition: 1s;
 }
 .nav.active {
   background-color: #1a1a1a;
+  transition: 1s;
 }
 
-.link-active {
+.link.active {
   color: #ff9933;
 }
 
-.link {
+.link,
+.link.active {
   cursor: pointer;
   /* margin-top: 1em; */
 }
@@ -33,15 +36,9 @@
 }
 
 .link.home::after,
-.link-active.home::after {
-  content: "  ";
-  white-space: pre;
-}
+.link-active.home::after,
 .link.about::after,
-.link-active.about::after {
-  content: "  ";
-  white-space: pre;
-}
+.link-active.about::after,
 .link.resume::after,
 .link-active.resume::after {
   content: "  ";

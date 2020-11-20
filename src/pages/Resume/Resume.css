@@ -1,18 +1,18 @@
 #resume {
-  background-color: #333333;
-  height: 1000px;
+  background-color: #1a1a1a;
+  height: 1500px;
+  color: white;
 }
 
 .resume-title {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  color: white;
-  font-size: 1.5vw;
+  font-size: 22px;
   margin: 2em 0 2em 0; /* 2em top and bot **/
 }
 .resume-t1 {
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .resume-t1::after {
@@ -22,4 +22,55 @@
 
 .resume-t2 {
   font-weight: 900;
+}
+
+.resume-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.edu {
+  margin-right: 50px;
+}
+.restext{
+  font-size: 30px;
+}
+
+
+.resbox{
+  width: 600px;
+  max-width: 600px;
+  height: 270px;
+  margin: 30px 0 30px 0;
+  border-radius: 15px;
+  background-color: #333333;
+}
+
+.resboxtime{
+  font-size: 16px;
+  padding-top: 40px;
+  padding-left: 40px;
+}
+
+.resboxtitle{
+  color: #ff9933;
+  padding-left: 40px;
+  font-size: 24px;
+  margin-top: 16px;
+}
+
+.resboxdes{
+  padding-left: 40px;
+  margin-top: 24px;
+  font-size: 18px;
+  line-height: 1.9;
+  color: #b3b3b3;
+}
+
+.resboxentity{
+  padding-left: 40px;
+  margin-top: 20px;
+  color: #b3b3b3;
+  font-size: 16px;
 }
