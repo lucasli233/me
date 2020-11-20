@@ -1,6 +1,6 @@
 #resume {
   background-color: #1a1a1a;
-  height: 1500px;
+  height: 100vh;
   color: white;
 }
 
@@ -39,16 +39,16 @@
 
 
 .resbox{
-  width: 600px;
-  max-width: 600px;
-  height: 270px;
+  width: 550px;
+  max-width: 550px;
+  height: 250px;
   margin: 30px 0 30px 0;
   border-radius: 15px;
   background-color: #333333;
 }
 
 .resboxtime{
-  font-size: 16px;
+  font-size: 15px;
   padding-top: 35px;
   padding-left: 40px;
 }
@@ -56,14 +56,14 @@
 .resboxtitle{
   color: #ff9933;
   padding-left: 40px;
-  font-size: 24px;
+  font-size: 22px;
   margin-top: 16px;
 }
 
 .resboxdes{
   padding-left: 40px;
-  margin-top: 24px;
-  font-size: 18px;
+  /* margin-top: 20px; */
+  font-size: 16px;
   line-height: 1.9;
   color: #b3b3b3;
 }

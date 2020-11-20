@@ -43,22 +43,7 @@ const Resume = () => {
               Victoria University of Wellington 
             </p>
           </div>
-
-          <div className="resbox">
-            <p className="resboxtime">
-              
-            </p>
-            <p className="resboxtitle">
-              
-            </p>
-            <p className="resboxdes">
-              <br/>
-            </p>
-            <p className="resboxentity">
-              
-            </p>
-          </div>
-
+          
         </div>
 
         <div className="exp">
@@ -73,7 +58,7 @@ const Resume = () => {
               Property Management Assistant
             </p>
             <p className="resboxdes">
-              Part-time AirBnB host for a New Zealand based property <br/> management company
+              Part-time Airbnb host for a New Zealand based property <br/> management company
             </p>
             <p className="resboxentity">
               Toodle Airbnb Management
@@ -81,19 +66,19 @@ const Resume = () => {
           </div>
 
           <div className="resbox">
-            <div className="resboxtime">
-            December 2019 - January 2020
-            </div>
-            <div className="resboxtitle">
-              Software Testing Intern 
-            </div>
-            <div className="resboxdes">
+            <p className="resboxtime">
+              December 2019 - January 2020
+            </p>
+            <p className="resboxtitle">
+              Software Testing Intern
+            </p>
+            <p className="resboxdes">
               Took part in the development of a map labelling software. <br/>
               Key responsibilities: Integration, user interface testing.
-            </div>
-            <div className="resboxentity">
+            </p>
+            <p className="resboxentity">
               Jiangsu Digitaland Technology Co., Ltd.
-            </div>
+            </p>
           </div>
         </div>
 
