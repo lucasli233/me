@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link, animateScroll } from "react-scroll";
-import "./NavBar.css";
+import "./NavBar.scss";
 
 const NavBar = () => {
   const [navbar, setNavbar]= useState(false);
