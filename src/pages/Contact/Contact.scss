@@ -1,6 +1,6 @@
 #contact {
   background-color: #1a1a1a;
-  height: 100vh;
+  height: calc(100vh - 80px);
 }
 
 .contact-title {
@@ -25,6 +25,7 @@
 }
 
 .contacttext{
+  letter-spacing: 1px;
   color: white;
   font-size: 30px;
   font-weight: 100;
@@ -107,6 +108,7 @@ textarea{
 
 .touch-box-form{
   color: white;
+  letter-spacing: 1px;
 }
 
 .touch-box-form:focus{
