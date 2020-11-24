@@ -24,7 +24,7 @@
   font-weight: 900;
 }
 
-.contacttext{
+.contacttext {
   letter-spacing: 1px;
   color: white;
   font-size: 30px;
@@ -35,7 +35,7 @@
   margin-right: 80px;
 }
 
-.touch-box{
+.touch-box {
   width: 550px;
   max-width: 550px;
   height: 250px;
@@ -50,32 +50,30 @@
   margin: 50px 0 30px 0;
 }
 
-.details-title{
+.details-title {
   color: #ff9933aa;
   font-size: 13px;
 }
 
-.details-content{
+.details-content {
   color: #b3b3b3aa;
   margin-bottom: 25px;
   font-size: 16px;
   line-height: 1.8;
 }
 
-.details-social{
+.details-social {
   color: white;
   font-size: 30px;
 }
 
-a.social{
+a.social {
   color: #ff9933aa;
   margin-right: 20px;
 }
 
-
-
-input[type=text],
-input[type=email] {
+input[type="text"],
+input[type="email"] {
   width: 100%;
   padding: 12px 20px;
   margin: 0 0 15px 0;
@@ -87,7 +85,7 @@ input[type=email] {
   color: white;
 }
 
-textarea{
+textarea {
   width: 100%;
   max-width: 100%;
   padding: 12px 20px;
@@ -99,23 +97,21 @@ textarea{
   color: white;
 }
 
-::placeholder{
+::placeholder {
   color: #b3b3b3aa;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-
-
-.touch-box-form{
+.touch-box-form {
   color: white;
   letter-spacing: 1px;
 }
 
-.touch-box-form:focus{
+.touch-box-form:focus {
   outline: 0;
 }
 
-input[type=submit] {
+input[type="submit"] {
   padding: 15px 25px;
   margin: 20px 0 15px 0;
   box-sizing: border-box;
@@ -128,7 +124,7 @@ input[type=submit] {
   letter-spacing: 3px;
 }
 
-.modal.submit-modal{
+.modal.submit-modal {
   position: absolute;
   left: 50%;
   top: 30%;
@@ -137,19 +133,17 @@ input[type=submit] {
   display: flex;
   flex-direction: column;
   text-align: center;
-  
+
   background-color: #333333;
   padding: 20px;
   border: transparent;
   color: white;
 }
 
-
-.modal.submit-modal:focus{
+.modal.submit-modal:focus {
   outline: 0;
 }
 
-
-.modal.submit-close{
+.modal.submit-close {
   margin: auto;
 }

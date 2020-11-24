@@ -1,25 +1,35 @@
 import React, { useState } from "react";
 import "./Contact.scss";
-import emailjs from "emailjs-com"
-import Modal from 'react-modal'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee, faLink } from '@fortawesome/free-solid-svg-icons'
-import { faInstagram, faLinkedin, faGithub, faGit, faFacebook, faFacebookSquare, faGithubSquare } from '@fortawesome/free-brands-svg-icons'
+import emailjs from "emailjs-com";
+import Modal from "react-modal";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faLinkedin,
+  faGithub,
+  faGit,
+  faFacebook,
+  faFacebookSquare,
+  faGithubSquare,
+} from "@fortawesome/free-brands-svg-icons";
 
 function sendEmail(e: any) {
   e.preventDefault();
 
-  emailjs.sendForm('gmail', 'temp', e.target, 'user_1zZ8PaBX2WHppm5mri95i')
-    .then((result) => {
-      console.log(result.text);
-    }, (error) => {
-      console.log(error.text);
-    });
+  emailjs
+    .sendForm("gmail", "template", e.target, "user_1zZ8PaBX2WHppm5mri95i")
+    .then(
+      (result) => {
+        console.log(result.text);
+      },
+      (error) => {
+        console.log(error.text);
+      }
+    );
   e.target.reset();
 }
 
 const Contact = () => {
-  const [modalIsOpen, setModalIsOpen] = useState(false)
+  const [modalIsOpen, setModalIsOpen] = useState(false);
   return (
     <section id="contact">
       <div className="contact-title">
@@ -31,25 +41,49 @@ const Contact = () => {
           <div className="contacttext touch">Email Me</div>
           <form onSubmit={sendEmail}>
             <div className="touch-box">
-              <div>
-                <input type="text" className="touch-box-form" placeholder="Your Name" name="name" />
-              </div>
-              <div>
-                <input type="email" className="touch-box-form" placeholder="Your Email" name="email" />
-              </div>
-              <div>
-                <input type="text" className="touch-box-form" placeholder="Subject" name="subject" />
-              </div>
-              <div>
-                <textarea className="touch-box-form" rows={8} placeholder="Write a Message" name="message"></textarea>
-              </div>
-              <div>
-                <input type="submit" className="touch-box-form" value="SEND MESSAGE" onClick={() => setModalIsOpen(true)}></input>
-                <Modal className="modal submit-modal" isOpen={modalIsOpen} onRequestClose={() => setModalIsOpen(false)}>
-                  <p>Message sent successfully</p>
-                  <button className="modal submit-close" onClick={() => setModalIsOpen(false)}>Close</button>
-                </Modal>
-              </div>
+              <input
+                type="text"
+                className="touch-box-form"
+                placeholder="Your Name"
+                name="name"
+              />
+              <input
+                type="email"
+                className="touch-box-form"
+                placeholder="Your Email"
+                name="email"
+              />
+              <input
+                type="text"
+                className="touch-box-form"
+                placeholder="Subject"
+                name="subject"
+              />
+              <textarea
+                className="touch-box-form"
+                rows={8}
+                placeholder="Write a Message"
+                name="message"
+              />
+              <input
+                type="submit"
+                className="touch-box-form"
+                value="SEND MESSAGE"
+                onClick={() => setModalIsOpen(true)}
+              />
+              <Modal
+                className="modal submit-modal"
+                isOpen={modalIsOpen}
+                onRequestClose={() => setModalIsOpen(false)}
+              >
+                <p>Message sent successfully</p>
+                <button
+                  className="modal submit-close"
+                  onClick={() => setModalIsOpen(false)}
+                >
+                  Close
+                </button>
+              </Modal>
             </div>
           </form>
         </div>
@@ -68,18 +102,26 @@ const Contact = () => {
               Auckland 1010
             </p>
             <div className="details-social">
-              <a href="https://www.linkedin.com/in/lucasli233/" className="social linkedin">
+              <a
+                href="https://www.linkedin.com/in/lucasli233/"
+                className="social linkedin"
+              >
                 <FontAwesomeIcon icon={faLinkedin} />
               </a>
-              <a href="https://github.com/lucasli233/" className="social github">
+              <a
+                href="https://github.com/lucasli233/"
+                className="social github"
+              >
                 <FontAwesomeIcon icon={faGithubSquare} />
               </a>
-              <a href="https://www.facebook.com/LucasShengqiLi/" className="social facebook">
+              <a
+                href="https://www.facebook.com/LucasShengqiLi/"
+                className="social facebook"
+              >
                 <FontAwesomeIcon icon={faFacebookSquare} />
               </a>
             </div>
           </div>
-
         </div>
       </div>
     </section>
