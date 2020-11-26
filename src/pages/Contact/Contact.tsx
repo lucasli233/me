@@ -5,9 +5,6 @@ import Modal from "react-modal";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faLinkedin,
-  faGithub,
-  faGit,
-  faFacebook,
   faFacebookSquare,
   faGithubSquare,
 } from "@fortawesome/free-brands-svg-icons";
@@ -33,7 +30,7 @@ const Contact = () => {
   return (
     <section id="contact">
       <div className="contact-title">
-        <h1 className="contact-t1">Get</h1>
+        <h1 className="contact-t1">Get </h1>
         <h1 className="contact-t2">In Touch</h1>
       </div>
       <div className="resume-content">

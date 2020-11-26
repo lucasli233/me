@@ -1,5 +1,6 @@
 #contact {
   background-color: #1a1a1a;
+  background-color: darkgrey;
   height: calc(100vh - 80px);
 }
 
@@ -13,10 +14,6 @@
 }
 .contact-t1 {
   font-weight: 400;
-}
-
-.contact-t1::after {
-  content: " ";
   white-space: pre;
 }
 
@@ -117,11 +114,15 @@ input[type="submit"] {
   box-sizing: border-box;
   border-radius: 15px;
   border-color: transparent;
-  background-color: #333333;
+  // background-color: #333333;
   font-size: 11px;
   background-color: #ff9933aa;
   color: white;
   letter-spacing: 3px;
+}
+
+input[type="submit"]:hover{
+  cursor: pointer;
 }
 
 .modal.submit-modal {

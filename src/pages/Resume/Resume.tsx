@@ -5,7 +5,7 @@ const Resume = () => {
     return (
         <section id="resume">
             <div className="resume-title">
-                <h1 className="resume-t1">My</h1>
+                <h1 className="resume-t1">My </h1>
                 <h1 className="resume-t2">Resume</h1>
             </div>
             <div className="resume-content">
@@ -15,12 +15,13 @@ const Resume = () => {
                         <p className="inresbox time">March 2019 - Present</p>
                         <p className="inresbox title">Bachelor of Science</p>
                         <p className="inresbox des">
-                            Majoring in Computer Science and Logic and
-                            Computation
+                            Majoring in Computer Science and Logic & Computation
                             <br />
                             GPA: 7.33
                         </p>
-                        <p className="inresbox entity">University of Auckland</p>
+                        <p className="inresbox entity">
+                            University of Auckland
+                        </p>
                     </div>
 
                     <div className="resbox 1-2">
@@ -31,32 +32,15 @@ const Resume = () => {
                             Bachelor of Engineering with Honours
                         </p>
                         <p className="inresbox des">
-                            Majoring in Software Engineering. Discontinued after first year.
-                            <br />&nbsp;
-                            
+                            Majored in Software Engineering. Moved to Auckland
+                            after
+                            <br />
+                            first year.
                         </p>
                         <p className="inresbox entity">
                             Victoria University of Wellington
                         </p>
                     </div>
-
-                    <div className="resbox 1-3">
-                        <p className="inresbox time">
-                            
-                        </p>
-                        <p className="inresbox title">
-                            
-                        </p>
-                        <p className="inresbox des">
-                            
-                            <br />&nbsp;
-                            
-                        </p>
-                        <p className="inresbox entity">
-                            
-                        </p>
-                    </div>
-
                 </div>
 
                 <div className="exp">
@@ -68,16 +52,21 @@ const Resume = () => {
                         </p>
                         <p className="inresbox des">
                             Part-time Airbnb host for a New Zealand based
-                            property <br /> management company specializing in short term rentals.
+                            property <br /> management company specializing in
+                            short term rentals.
                         </p>
-                        <p className="inresbox entity">Toodle Airbnb Management</p>
+                        <p className="inresbox entity">
+                            Toodle Airbnb Management
+                        </p>
                     </div>
 
                     <div className="resbox 2-2">
                         <p className="inresbox time">
                             December 2019 - January 2020
                         </p>
-                        <p className="inresbox title">Software Testing Intern</p>
+                        <p className="inresbox title">
+                            Software Testing Intern
+                        </p>
                         <p className="inresbox des">
                             Took part in the development of a map labelling
                             software. <br />
@@ -88,24 +77,6 @@ const Resume = () => {
                             Jiangsu Digitaland Technology Co., Ltd.
                         </p>
                     </div>
-
-                    <div className="resbox 2-3">
-                        <p className="resboxtime">
-                            
-                        </p>
-                        <p className="resboxtitle">
-
-                        </p>
-                        <p className="resboxdes">
-                            
-                            <br />
-                            
-                        </p>
-                        <p className="resboxentity">
-                            
-                        </p>
-                    </div>
-
                 </div>
             </div>
         </section>

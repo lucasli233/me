@@ -1,6 +1,7 @@
 #resume {
     background-color: #1a1a1a;
-    height: 1250px;
+    background-color: darkgrey;
+    height: 100vh;
     color: white;
 }
 
@@ -13,12 +14,10 @@
 }
 .resume-t1 {
     font-weight: 400;
-}
-
-.resume-t1::after {
-    content: " ";
     white-space: pre;
 }
+
+
 
 .resume-t2 {
     font-weight: 900;
