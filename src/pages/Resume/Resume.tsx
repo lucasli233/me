@@ -33,9 +33,7 @@ const Resume = () => {
                         </p>
                         <p className="inresbox des">
                             Majored in Software Engineering. Moved to Auckland
-                            after
-                            <br />
-                            first year.
+                            after first year.
                         </p>
                         <p className="inresbox entity">
                             Victoria University of Wellington
@@ -52,7 +50,7 @@ const Resume = () => {
                         </p>
                         <p className="inresbox des">
                             Part-time Airbnb host for a New Zealand based
-                            property <br /> management company specializing in
+                            property management company specializing in
                             short term rentals.
                         </p>
                         <p className="inresbox entity">

@@ -15,12 +15,11 @@ const About = () => {
           <div className="about-desc">
             <p className="about-descp1">
               Currently in the last year of pursuing a Bachelor of Science
-              degree at the University of Auckland majoring in Computer Science
-              and Computational Logic.
+              degree at the University of Auckland.
             </p>
             <p className="about-descp2">
-              I'm very fascinated by technology and science. I'm also passionate
-              for psychology, philosophy, cinema, music, and fashion
+              Passionate for technology and science. Hobbies include philosophy,
+              cinema, classical music, and fashion
             </p>
             <div className="about-buttonbox">
               <Link
@@ -46,17 +45,31 @@ const About = () => {
         <div className="testi-content">
           <div className="testi-left">
             <div className="testi-box">
-              <div className="profile-circle">
-              </div>
+              <div className="profile-circle"></div>
               <div className="chat-bubble">
+                <div className="testi-texts-box">
+                  <p className="testi-text">
+                    "His assertive attitude is always very helpful in a range of
+                    different situations. Anyone who has him in his team can
+                    consider very lucky as you can always count on him."
+                  </p>
+                  <p className="testi-text-entity juli">
+                    Juliana Durán, Manager
+                  </p>
+                </div>
               </div>
             </div>
           </div>
           <div className="testi-right">
             <div className="testi-box">
-              <div className="profile-circle">
-              </div>
+              <div className="profile-circle"></div>
               <div className="chat-bubble">
+                <div className="testi-texts-box">
+                  <p className="testi-text">
+                    Xxxx
+                  </p>
+                  <p className="testi-text-entity nicci">Xxxx Xxxxx, Xxxx</p>
+                </div>
               </div>
             </div>
           </div>

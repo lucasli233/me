@@ -1,6 +1,6 @@
 #about {
   background-color: #1a1a1a;
-  height: 1000px;
+  height: 100vh;
 }
 
 .about-box {
@@ -8,13 +8,13 @@
   flex-direction: row;
   justify-content: center;
   font-size: 22px;
-  margin-top: 5em;
+  margin-top: 4em;
 }
 
 .photo-box {
   margin-right: 80px;
-  width: 600px;
-  height: 400px;
+  width: 500px;
+  height: 333px;
   background-image: url("./face1.jpg");
   background-size: cover;
   background-position: center;
@@ -29,6 +29,7 @@
   flex-direction: row;
   color: white;
   font-size: 22px;
+  margin-top: 0.5em;
 }
 
 .about-title-t1 {
@@ -51,12 +52,12 @@
 }
 
 .about-descp1 {
-  font-size: 19px;
+  font-size: 18px;
   letter-spacing: 1px;
 }
 
 .about-descp2 {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .about-buttonbox {
@@ -120,37 +121,69 @@
 }
 
 .testi-box {
-  width: 450px;
-  height: 200px;
   display: flex;
   flex-direction: col;
 }
 
-.profile-circle{
+.profile-circle {
   height: 70px;
   width: 70px;
-  background-color:#333333;
+  background-color: #333333;
   border-radius: 50%;
 }
 
-.chat-bubble{
-  position: relative;
+.chat-bubble {
+  // position: relative;
   background-color: #333333;
-  width: 350px;
-  height: 200px;
-  margin-left: 50px;
+  width: 440px;
+  height: 180px;
+  margin-left: 30px;
+  // padding: 20px;
   border-radius: 15px;
 }
 
-.chat-bubble:after{
+.chat-bubble:after {
   content: "";
   display: block;
   position: absolute;
   width: 0;
   height: 0;
-  
   border-bottom: 18px solid transparent;
   border-right: 18px solid #333333;
-  left: -18px;
-  top: 35px;
+  margin-top: -150px;
+  margin-left: -18px;
+
+}
+
+.testi-texts-box {
+  margin: 20px;
+  width: 400px;
+  height: 140px;
+}
+
+.testi-text {
+  color: #b3b3b3aa;
+  font-size: 15px;
+  letter-spacing: 1px;
+  line-height: 1.6;
+}
+
+.testi-text-entity {
+  font-style: italic;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 1.6;
+  color: #b3b3b3aa;
+}
+
+.testi-text-entity.juli:after {
+  content: " Toodle Ltd.";
+  color: #ff9933;
+  font-style: italic;
+}
+
+.testi-text-entity.nicci:after {
+  content: " XXX xx.";
+  color: #ff9933;
+  font-style: italic;
 }
