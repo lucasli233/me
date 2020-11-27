@@ -1,6 +1,6 @@
 #about {
   background-color: #1a1a1a;
-  height: 1500px;
+  height: 1000px;
 }
 
 .about-box {
@@ -15,7 +15,7 @@
   margin-right: 80px;
   width: 600px;
   height: 400px;
-  background-image: url("./face.jpg");
+  background-image: url("./face1.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -90,7 +90,6 @@
 .about-cv-button {
   text-decoration: none;
   margin-left: 2em;
-
   background-color: #b3b3b3aa;
 }
 
@@ -109,9 +108,49 @@
   font-weight: 100;
 }
 
-.testis{
+.testi-content {
   display: flex;
-  flex-direction: row;
-  background-color: grey;
-  width: 500px;
+  flex-direction: col;
+  justify-content: center;
+  margin-top: 3em;
+}
+
+.testi-left {
+  margin-right: 50px;
+}
+
+.testi-box {
+  width: 450px;
+  height: 200px;
+  display: flex;
+  flex-direction: col;
+}
+
+.profile-circle{
+  height: 70px;
+  width: 70px;
+  background-color:#333333;
+  border-radius: 50%;
+}
+
+.chat-bubble{
+  position: relative;
+  background-color: #333333;
+  width: 350px;
+  height: 200px;
+  margin-left: 50px;
+  border-radius: 15px;
+}
+
+.chat-bubble:after{
+  content: "";
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  
+  border-bottom: 18px solid transparent;
+  border-right: 18px solid #333333;
+  left: -18px;
+  top: 35px;
 }

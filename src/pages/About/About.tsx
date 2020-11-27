@@ -33,11 +33,7 @@ const About = () => {
                 HIRE ME
               </Link>
 
-              <a
-                href="../lucasli_cv.pdf"
-                download
-                className="about-cv-button"
-              >
+              <a href="../lucasli_cv.pdf" download className="about-cv-button">
                 DOWNLOAD CV
               </a>
             </div>
@@ -46,11 +42,24 @@ const About = () => {
       </div>
 
       <div className="testimonial-box">
-        <div className="testimonial-title">
-          Testimonials
-        </div>
-        <div className="testis">
-          1
+        <div className="testimonial-title">Testimonials</div>
+        <div className="testi-content">
+          <div className="testi-left">
+            <div className="testi-box">
+              <div className="profile-circle">
+              </div>
+              <div className="chat-bubble">
+              </div>
+            </div>
+          </div>
+          <div className="testi-right">
+            <div className="testi-box">
+              <div className="profile-circle">
+              </div>
+              <div className="chat-bubble">
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
