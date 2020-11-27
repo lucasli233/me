@@ -31,8 +31,11 @@ const About = () => {
               >
                 HIRE ME
               </Link>
-
-              <a href="../lucasli_cv.pdf" download className="about-cv-button">
+              <a
+                href="https://github.com/lucasli233/react-portfolio/blob/master/public/lucasli_cv.pdf"
+                download
+                className="about-cv-button"
+              >
                 DOWNLOAD CV
               </a>
             </div>
@@ -65,9 +68,7 @@ const About = () => {
               <div className="profile-circle"></div>
               <div className="chat-bubble">
                 <div className="testi-texts-box">
-                  <p className="testi-text">
-                    Xxxx
-                  </p>
+                  <p className="testi-text">Xxxx</p>
                   <p className="testi-text-entity nicci">Xxxx Xxxxx, Xxxx</p>
                 </div>
               </div>
