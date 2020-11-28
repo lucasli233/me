@@ -14,11 +14,11 @@ const About = () => {
           </div>
           <div className="about-desc">
             <p className="about-descp1">
-              Currently in the last year of pursuing a Bachelor of Science
-              degree at the University of Auckland.
+              Third year Bachelor of Science student at
+              the University of Auckland.
             </p>
             <p className="about-descp2">
-              Passionate for technology and science. Hobbies include philosophy,
+              Passionate for technology, science, and philosophy. Hobbies include
               cinema, classical music, and fashion
             </p>
             <div className="about-buttonbox">
@@ -47,6 +47,7 @@ const About = () => {
         <div className="testimonial-title">Testimonials</div>
         <div className="testi-content">
           <div className="testi-left">
+
             <div className="testi-box">
               <div className="profile-circle"></div>
               <div className="chat-bubble">
@@ -62,8 +63,10 @@ const About = () => {
                 </div>
               </div>
             </div>
+
           </div>
           <div className="testi-right">
+
             <div className="testi-box">
               <div className="profile-circle"></div>
               <div className="chat-bubble">
@@ -73,6 +76,7 @@ const About = () => {
                 </div>
               </div>
             </div>
+
           </div>
         </div>
       </div>
