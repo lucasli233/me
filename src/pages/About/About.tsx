@@ -14,12 +14,12 @@ const About = () => {
           </div>
           <div className="about-desc">
             <p className="about-descp1">
-              Third year Bachelor of Science student at
-              the University of Auckland.
+              Third year Bachelor of Science student at the University of
+              Auckland.
             </p>
             <p className="about-descp2">
-              Passionate for technology, science, and philosophy. Hobbies include
-              cinema, classical music, and fashion
+              Passionate for technology, science, and philosophy. Hobbies
+              include cinema, classical music, and fashion
             </p>
             <div className="about-buttonbox">
               <Link
@@ -32,8 +32,10 @@ const About = () => {
                 HIRE ME
               </Link>
               <a
+                style={{ display: "table-cell" }}
                 href="https://github.com/lucasli233/react-portfolio/blob/master/public/lucasli_cv.pdf"
-                download
+                target="_blank"
+                // download
                 className="about-cv-button"
               >
                 DOWNLOAD CV
@@ -47,7 +49,6 @@ const About = () => {
         <div className="testimonial-title">Testimonials</div>
         <div className="testi-content">
           <div className="testi-left">
-
             <div className="testi-box">
               <div className="profile-circle"></div>
               <div className="chat-bubble">
@@ -63,10 +64,8 @@ const About = () => {
                 </div>
               </div>
             </div>
-
           </div>
           <div className="testi-right">
-
             <div className="testi-box">
               <div className="profile-circle"></div>
               <div className="chat-bubble">
@@ -76,7 +75,6 @@ const About = () => {
                 </div>
               </div>
             </div>
-
           </div>
         </div>
       </div>
