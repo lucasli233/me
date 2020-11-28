@@ -53,6 +53,16 @@ const About = () => {
               <div className="profile-circle"></div>
               <div className="chat-bubble">
                 <div className="testi-texts-box">
+                  <p className="testi-text">Xxxx</p>
+                  <p className="testi-text-entity nicci">Xxxx Xxxxx, Xxxx</p>
+                </div>
+              </div>
+            </div>
+
+            {/* <div className="testi-box">
+              <div className="profile-circle"></div>
+              <div className="chat-bubble">
+                <div className="testi-texts-box">
                   <p className="testi-text">
                     "His assertive attitude is always very helpful in a range of
                     different situations. Anyone who has him in his team can
@@ -63,7 +73,7 @@ const About = () => {
                   </p>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="testi-right">
             <div className="testi-box">
