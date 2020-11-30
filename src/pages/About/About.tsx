@@ -18,9 +18,10 @@ const About = () => {
               Auckland.
             </p>
             <p className="about-descp2">
-              Passionate for technology, science, and philosophy. Hobbies
+              Passionate for technology, science, and philosophy. Hobbies and interests
               include cinema, classical music, and fashion
             </p>
+            
             <div className="about-buttonbox">
               <Link
                 className="about-contact-button"
@@ -49,18 +50,10 @@ const About = () => {
         <div className="testimonial-title">Testimonials</div>
         <div className="testi-content">
           <div className="testi-left">
-            <div className="testi-box">
-              <div className="profile-circle"></div>
-              <div className="chat-bubble">
-                <div className="testi-texts-box">
-                  <p className="testi-text">Xxxx</p>
-                  <p className="testi-text-entity nicci">Xxxx Xxxxx, Xxxx</p>
-                </div>
-              </div>
-            </div>
+          
 
-            {/* <div className="testi-box">
-              <div className="profile-circle"></div>
+            <div className="testi-box">
+              <div className="profile-circle juli"></div>
               <div className="chat-bubble">
                 <div className="testi-texts-box">
                   <p className="testi-text">
@@ -69,11 +62,11 @@ const About = () => {
                     consider very lucky as you can always count on him."
                   </p>
                   <p className="testi-text-entity juli">
-                    Juliana Durán, Manager
+                    Juliana Durán, Supervisor
                   </p>
                 </div>
               </div>
-            </div> */}
+            </div>
           </div>
           <div className="testi-right">
             <div className="testi-box">
