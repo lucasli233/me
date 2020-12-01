@@ -19,7 +19,7 @@ const About = () => {
             </p>
             <p className="about-descp2">
               Passionate for technology, science, and philosophy. Hobbies and interests
-              include cinema, classical music, and fashion
+              include cinema, classical music, and fashion.
             </p>
             
             <div className="about-buttonbox">
@@ -34,7 +34,7 @@ const About = () => {
               </Link>
               <a
                 style={{ display: "table-cell" }}
-                href="https://github.com/lucasli233/react-portfolio/blob/master/public/lucasli_cv.pdf"
+                href="https://drive.google.com/file/d/15ucRClLMcmuJFnJ4ffBJRXM_-ZtC5hWT/view?usp=sharing"
                 target="_blank"
                 // download
                 className="about-cv-button"
