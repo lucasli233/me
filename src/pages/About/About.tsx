@@ -73,8 +73,8 @@ const About = () => {
               <div className="profile-circle"></div>
               <div className="chat-bubble">
                 <div className="testi-texts-box">
-                  <p className="testi-text">Xxxx</p>
-                  <p className="testi-text-entity nicci">Xxxx Xxxxx, Xxxx</p>
+                  {/* <p className="testi-text">Xxxx</p> */}
+                  {/* <p className="testi-text-entity nicci">Xxxx Xxxxx, Xxxx</p> */}
                 </div>
               </div>
             </div>

@@ -54,10 +54,12 @@
 .about-descp1 {
   font-size: 18px;
   letter-spacing: 1px;
+  text-align: justify;
 }
 
 .about-descp2 {
   font-size: 16px;
+  text-align: justify;
 }
 
 .about-buttonbox {
@@ -123,6 +125,7 @@
 .testi-box {
   display: flex;
   flex-direction: col;
+  text-align: justify;
 }
 
 .profile-circle {
@@ -184,12 +187,12 @@
 
 .testi-text-entity.juli:after {
   content: " Toodle Ltd.";
-  color: #ff9933;
+  color: #ff9933aa;
   font-style: italic;
 }
 
 .testi-text-entity.nicci:after {
   content: " XXX xx.";
-  color: #ff9933;
+  color: #ff9933aa;
   font-style: italic;
 }

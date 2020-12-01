@@ -17,7 +17,7 @@ const Resume = () => {
                         <p className="inresbox des">
                             Majoring in Computer Science and Logic & Computation
                             <br />
-                            GPA: 7.33
+                            GPA: 7/9
                         </p>
                         <p className="inresbox entity">
                             University of Auckland
@@ -32,7 +32,7 @@ const Resume = () => {
                             Bachelor of Engineering with Honours
                         </p>
                         <p className="inresbox des">
-                            Majored in Software Engineering. Moved to Auckland
+                            Majored in Software Engineering. Discontinued and moved to Auckland
                             after first year.
                         </p>
                         <p className="inresbox entity">
