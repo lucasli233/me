@@ -141,6 +141,10 @@
   background-position: center;
 }
 
+.profile-circle.nicci{
+  background-color: #1a1a1a;
+}
+
 .chat-bubble {
   // position: relative;
   background-color: #333333;
@@ -150,6 +154,11 @@
   // padding: 20px;
   border-radius: 15px;
 }
+
+.chat-bubble.nicci{
+  background-color: #1a1a1a;
+}
+
 
 .chat-bubble:after {
   content: "";
@@ -163,6 +172,20 @@
   margin-left: -18px;
 
 }
+
+.chat-bubble.nicci:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-bottom: 18px solid transparent;
+  border-right: 18px solid #1a1a1a;
+  margin-top: -150px;
+  margin-left: -18px;
+
+}
+
 
 .testi-texts-box {
   margin: 20px;

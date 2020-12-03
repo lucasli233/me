@@ -18,10 +18,10 @@ const About = () => {
               Auckland.
             </p>
             <p className="about-descp2">
-              Passionate for technology, science, and philosophy. Hobbies and interests
-              include cinema, classical music, and fashion.
+              Passionate for technology, science, and philosophy. Hobbies and
+              interests include cinema, classical music, and fashion.
             </p>
-            
+
             <div className="about-buttonbox">
               <Link
                 className="about-contact-button"
@@ -50,8 +50,6 @@ const About = () => {
         <div className="testimonial-title">Testimonials</div>
         <div className="testi-content">
           <div className="testi-left">
-          
-
             <div className="testi-box">
               <div className="profile-circle juli"></div>
               <div className="chat-bubble">
@@ -70,11 +68,11 @@ const About = () => {
           </div>
           <div className="testi-right">
             <div className="testi-box">
-              <div className="profile-circle"></div>
-              <div className="chat-bubble">
+              <div className="profile-circle nicci"></div>
+              <div className="chat-bubble nicci">
                 <div className="testi-texts-box">
-                  {/* <p className="testi-text">Xxxx</p> */}
-                  {/* <p className="testi-text-entity nicci">Xxxx Xxxxx, Xxxx</p> */}
+                  {/* <p className="testi-text">Xxxx</p>
+                  <p className="testi-text-entity nicci">Xxxx Xxxxx, Xxxx</p> */}
                 </div>
               </div>
             </div>
