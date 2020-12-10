@@ -34,7 +34,7 @@ const About = () => {
               </Link>
               <a
                 style={{ display: "table-cell" }}
-                href="https://drive.google.com/file/d/15ucRClLMcmuJFnJ4ffBJRXM_-ZtC5hWT/view?usp=sharing"
+                href="https://drive.google.com/file/d/1VZJbqgTXnxGQIm9SRAp4qzjoJWe9_nTb/view?usp=sharing"
                 target="_blank"
                 // download
                 className="about-cv-button"
