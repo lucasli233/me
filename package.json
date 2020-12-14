@@ -2,7 +2,7 @@
     "name": "react-portfolio",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://oblivion233.github.io/react-portfolio",
+    "homepage": "https://lucasli233.github.io/react-portfolio/",
     "dependencies": {
         "@fortawesome/free-solid-svg-icons": "^5.15.1",
         "@reach/router": "^1.3.4",
