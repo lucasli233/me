@@ -13,13 +13,14 @@ const About = () => {
             <h1 className="about-title-t2">Me</h1>
           </div>
           <div className="about-desc">
-            <p className="about-descp1">
+            <p className="about-descp">
               Third year Bachelor of Science student at the University of
               Auckland.
             </p>
-            <p className="about-descp2">
-              Passionate for technology, science, and philosophy. Hobbies and
-              interests include cinema, classical music, and fashion.
+            <p className="about-descp">
+              I am an outgoing and sociable person. 
+              I am super passionate for technology, science, and philosophy.
+              My hobbies and interests include cinema, classical music, and fashion.
             </p>
 
             <div className="about-buttonbox">

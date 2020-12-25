@@ -15,7 +15,7 @@ const Resume = () => {
                         <p className="inresbox time">March 2019 - Present</p>
                         <p className="inresbox title">Bachelor of Science</p>
                         <p className="inresbox des">
-                            Majoring in Computer Science and Logic & Computation
+                            Majoring in Computer Science and Logic & Computation.
                             <br />
                             GPA: 7/9
                         </p>
