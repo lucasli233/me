@@ -3,7 +3,7 @@
   height: 100vh;
 }
 
-.about-box {
+.aboutBox {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -11,7 +11,7 @@
   margin-top: 4em;
 }
 
-.photo-box {
+.photoBox {
   margin-right: 80px;
   width: 500px;
   height: 333px;
@@ -20,11 +20,11 @@
   background-position: center;
 }
 
-.desc-box {
+.descBox {
   width: 400px;
 }
 
-.about-title {
+.aboutTitle {
   display: flex;
   flex-direction: row;
   color: white;
@@ -32,73 +32,73 @@
   margin-top: -0.4em;
 }
 
-.about-title-t1 {
+.aboutTitleT1 {
   font-weight: 400;
   white-space: pre;
   margin-top: 0;
 }
 
-.about-title-t1::after {
+.aboutTitleT1::after {
   white-space: pre;
 }
 
-.about-title-t2 {
+.aboutTitleT2 {
   font-weight: 900;
   margin-top: 0;
 }
 
-.about-desc {
+.aboutDesc {
   color: #b3b3b3aa;
 }
 
-.about-descp {
+.aboutDescp {
   font-size: 18px;
   text-align: justify;
   letter-spacing: 0px;
   font-weight: 350;
 }
 
-.about-buttonbox {
+.aboutButtonbox {
   display: flex;
   flex-direction: col;
 }
 
-.about-cv-button,
-.about-contact-button {
+.aboutCvButton,
+.aboutContactButton {
   padding: 15px 25px;
   margin: 20px 0 15px 0;
   box-sizing: border-box;
   border-radius: 15px;
   border-color: transparent;
-  // background-color: #333333;
+  /* // background-color: #333333; */
   font-size: 11px;
 
   color: white;
   letter-spacing: 3px;
 }
 
-.about-cv-button:hover,
-.about-contact-button:hover {
+.aboutCvButton:hover,
+.aboutContactButton:hover {
   cursor: pointer;
 }
 
-.about-contact-button {
+.aboutContactButton {
   background-color: #ff9933aa;
 }
 
-.about-cv-button {
+.aboutCvButton {
   text-decoration: none;
   margin-left: 2em;
   background-color: #b3b3b3aa;
 }
 
-.testimonial-box {
+.testimonialBox {
   border-style: solid 2px white;
   margin-top: 100px;
   color: white;
 }
 
-.testimonial-title {
+.testimonialTitle {
   display: flex;
   justify-content: center;
   color: white;
@@ -107,56 +107,55 @@
   font-weight: 100;
 }
 
-.testi-content {
+.testiContent {
   display: flex;
   flex-direction: col;
   justify-content: center;
   margin-top: 3em;
 }
 
-.testi-left {
+.testiLeft {
   margin-right: 50px;
 }
 
-.testi-box {
+.testiBox {
   display: flex;
   flex-direction: col;
   text-align: justify;
 }
 
-.profile-circle {
+.profileCircle {
   height: 70px;
   width: 70px;
   background-color: #333333;
   border-radius: 50%;
 }
 
-.profile-circle.juli{
+.profileCircle.juli {
   background-image: url("./juliana.jpg");
   background-size: cover;
   background-position: center;
 }
 
-.profile-circle.nicci{
+.profileCircle.nicci {
   background-color: #1a1a1a;
 }
 
-.chat-bubble {
-  // position: relative;
+.chatBubble {
+  /* // position: relative; */
   background-color: #333333;
   width: 440px;
   height: 180px;
   margin-left: 30px;
-  // padding: 20px;
+  /* // padding: 20px; */
   border-radius: 15px;
 }
 
-.chat-bubble.nicci{
+.chatBubble.nicci {
   background-color: #1a1a1a;
 }
 
-
-.chat-bubble:after {
+.chatBubble:after {
   content: "";
   display: block;
   position: absolute;
@@ -166,10 +165,9 @@
   border-right: 18px solid #333333;
   margin-top: -150px;
   margin-left: -18px;
-
 }
 
-.chat-bubble.nicci:after {
+.chatBubble.nicci:after {
   content: "";
   display: block;
   position: absolute;
@@ -181,21 +179,20 @@
   margin-left: -18px;
 }
 
-
-.testi-texts-box {
+.testiTextsBox {
   margin: 20px;
   width: 400px;
   height: 140px;
 }
 
-.testi-text {
+.testiText {
   color: #b3b3b3aa;
   font-size: 15px;
   letter-spacing: 1px;
   line-height: 1.6;
 }
 
-.testi-text-entity {
+.testiTextEntity {
   font-style: italic;
   font-size: 16px;
   letter-spacing: 1px;
@@ -203,13 +200,13 @@
   color: #b3b3b3aa;
 }
 
-.testi-text-entity.juli:after {
+.testiTextEntity.juli:after {
   content: " Toodle Ltd.";
   color: #ff9933aa;
   font-style: italic;
 }
 
-.testi-text-entity.nicci:after {
+.testiTextEntity.nicci:after {
   content: " XXX xx.";
   color: #ff9933aa;
   font-style: italic;

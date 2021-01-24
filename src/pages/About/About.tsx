@@ -1,31 +1,32 @@
 import React from "react";
 import "./About.scss";
+// import styles from "./About.module.css";
 import { Link } from "react-scroll";
 
 const About = () => {
   return (
     <section id="about">
-      <div className="about-box">
-        <div className="photo-box"></div>
-        <div className="desc-box">
-          <div className="about-title">
-            <h1 className="about-title-t1">About </h1>
-            <h1 className="about-title-t2">Me</h1>
+      <div className="aboutBox">
+        <div className="photoBox"></div>
+        <div className="descBox">
+          <div className="aboutTitle">
+            <h1 className="aboutTitleT1">About </h1>
+            <h1 className="aboutTitleT2">Me</h1>
           </div>
-          <div className="about-desc">
-            <p className="about-descp">
+          <div className="aboutDesc">
+            <p className="aboutDescp">
               Third year Bachelor of Science student at the University of
               Auckland.
             </p>
-            <p className="about-descp">
-              I am an outgoing and sociable person. 
-              I am super passionate for technology, science, and philosophy.
-              My hobbies and interests include cinema, classical music, and fashion.
+            <p className="aboutDescp">
+              I am an outgoing and sociable person. I am super passionate for
+              technology, science. My hobbies and interests range from
+              philosophy and cinema, to classical music and fashion.
             </p>
 
-            <div className="about-buttonbox">
+            <div className="aboutButtonbox">
               <Link
-                className="about-contact-button"
+                className="aboutContactButton"
                 to="contact"
                 smooth={true}
                 duration={1000}
@@ -38,7 +39,7 @@ const About = () => {
                 href="https://drive.google.com/file/d/1VZJbqgTXnxGQIm9SRAp4qzjoJWe9_nTb/view?usp=sharing"
                 target="_blank"
                 // download
-                className="about-cv-button"
+                className="aboutCvButton"
               >
                 DOWNLOAD CV
               </a>
@@ -47,31 +48,31 @@ const About = () => {
         </div>
       </div>
 
-      <div className="testimonial-box">
-        <div className="testimonial-title">Testimonials</div>
-        <div className="testi-content">
-          <div className="testi-left">
-            <div className="testi-box">
-              <div className="profile-circle juli"></div>
-              <div className="chat-bubble">
-                <div className="testi-texts-box">
-                  <p className="testi-text">
+      <div className="testimonialBox">
+        <div className="testimonialTitle">Testimonials</div>
+        <div className="testiContent">
+          <div className="testiLeft">
+            <div className="testiBox">
+              <div className="profileCircle juli"></div>
+              <div className="chatBubble">
+                <div className="testiTextsBox">
+                  <p className="testiText">
                     "His assertive attitude is always very helpful in a range of
                     different situations. Anyone who has him in his team can
                     consider very lucky as you can always count on him."
                   </p>
-                  <p className="testi-text-entity juli">
+                  <p className="testiTextEntity juli">
                     Juliana Durán, Supervisor
                   </p>
                 </div>
               </div>
             </div>
           </div>
-          <div className="testi-right">
-            <div className="testi-box">
-              <div className="profile-circle nicci"></div>
-              <div className="chat-bubble nicci">
-                <div className="testi-texts-box">
+          <div className="testiRight">
+            <div className="testiBox">
+              <div className="profileCircle nicci"></div>
+              <div className="chatBubble nicci">
+                <div className="testiTextsBox">
                   {/* <p className="testi-text">Xxxx</p>
                   <p className="testi-text-entity nicci">Xxxx Xxxxx, Xxxx</p> */}
                 </div>
