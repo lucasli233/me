@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.1fc1514d.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.e0a94097.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.e0a94097.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.b6bff598.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.f9b05f2b.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.f9b05f2b.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.213b1880.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.213b1880.js.map",
-    "static/js/2.57406218.chunk.js": "/react-portfolio/static/js/2.57406218.chunk.js",
-    "static/js/2.57406218.chunk.js.map": "/react-portfolio/static/js/2.57406218.chunk.js.map",
+    "static/js/2.9e0c27bc.chunk.js": "/react-portfolio/static/js/2.9e0c27bc.chunk.js",
+    "static/js/2.9e0c27bc.chunk.js.map": "/react-portfolio/static/js/2.9e0c27bc.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "precache-manifest.f213b214a92f7ccddde220514aaabf60.js": "/react-portfolio/precache-manifest.f213b214a92f7ccddde220514aaabf60.js",
+    "precache-manifest.25ff1e5a4fde21cb9b0ab1fc519ef21b.js": "/react-portfolio/precache-manifest.25ff1e5a4fde21cb9b0ab1fc519ef21b.js",
     "service-worker.js": "/react-portfolio/service-worker.js",
-    "static/css/main.1fc1514d.chunk.css.map": "/react-portfolio/static/css/main.1fc1514d.chunk.css.map",
-    "static/js/2.57406218.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.57406218.chunk.js.LICENSE.txt",
+    "static/css/main.b6bff598.chunk.css.map": "/react-portfolio/static/css/main.b6bff598.chunk.css.map",
+    "static/js/2.9e0c27bc.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.9e0c27bc.chunk.js.LICENSE.txt",
     "static/media/Main.module.scss": "/react-portfolio/static/media/faceb&w.f4ff88b5.jpg",
     "static/media/About.module.scss": "/react-portfolio/static/media/fit1.5c09e976.jpg",
     "static/media/App.scss": "/react-portfolio/static/media/juliana.4735efe2.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.213b1880.js",
-    "static/js/2.57406218.chunk.js",
-    "static/css/main.1fc1514d.chunk.css",
-    "static/js/main.e0a94097.chunk.js"
+    "static/js/2.9e0c27bc.chunk.js",
+    "static/css/main.b6bff598.chunk.css",
+    "static/js/main.f9b05f2b.chunk.js"
   ]
 }
