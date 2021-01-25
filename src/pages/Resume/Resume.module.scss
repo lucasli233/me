@@ -1,0 +1,45 @@
+.resume {
+  background-color: #1a1a1a;
+  min-height: calc(100vh - 80px);
+  color: white;
+}
+
+
+.resbox {
+  width: 410px;
+  margin: 30px 0 30px 0;
+  border-radius: 15px;
+  background-color: #333333;
+  padding: 20px 40px 20px 40px;
+  color: var(--textgrey);
+}
+
+.edu {
+  margin-right: 20px;
+}
+
+.exp {
+  margin-left: 20px;
+}
+
+.date {
+  font-size: 15px;
+}
+
+.title {
+  color: #ff9933;
+  font-size: 22px;
+  margin-top: 16px;
+}
+
+.des {
+  font-size: 16px;
+  line-height: 1.9;
+  
+  text-align: justify;
+}
+
+.entity {
+  margin-top: 20px;
+  font-size: 16px;
+}

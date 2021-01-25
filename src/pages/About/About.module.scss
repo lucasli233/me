@@ -1,0 +1,147 @@
+.about {
+  background-color: #1a1a1a;
+  min-height: calc(100vh - 80px);
+}
+
+.photo {
+  margin-right: 80px;
+  width: 485px;
+  height: 300px;
+  background-image: url("./fit1.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+}
+
+.descBox {
+  width: 500px;
+  height: 300px;
+  margin: 0;
+  padding: 0;
+}
+
+.desc1,
+.desc2 {
+  color: var(--textgrey);
+  font-size: 16px;
+  font-weight: 350;
+  letter-spacing: 0px;
+  line-height: 1.8;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+.desc1 {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.desc2 {
+  margin: 0.7rem 0;
+}
+
+ul {
+  margin: 0;
+}
+.btnbox {
+  display: flex;
+  flex-direction: col;
+  justify-content: center;
+}
+
+.cvBtn,
+.contactBtn {
+  padding: 15px 25px;
+  margin: 0 10px;
+  border-radius: 15px;
+  font-size: 11px;
+  color: white;
+  letter-spacing: 3px;
+}
+
+.cvBtn:hover,
+.contactBtn:hover {
+  cursor: pointer;
+  opacity: 0.7;
+  transition: 1s;
+}
+
+.contactBtn {
+  background-color: #ff9933aa;
+}
+
+.cvBtn {
+  text-decoration: none;
+  margin-left: 2em;
+  background-color: #b3b3b3aa;
+}
+
+.testiBox {
+  margin-top: 100px;
+}
+
+.testiContainer {
+  display: grid;
+  justify-content: center;
+  grid-gap: 30px;
+  grid-template-columns: repeat(2, auto);
+}
+
+.testiCard {
+  display: flex;
+  flex-direction: col;
+  text-align: justify;
+}
+
+.chatBubble {
+  background-color: #333333;
+  width: 440px;
+  height: 180px;
+  margin-left: 30px;
+  border-radius: 15px;
+}
+
+.chatBubble:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-bottom: 18px solid transparent;
+  border-right: 18px solid #333333;
+  margin-top: -150px;
+  margin-left: -18px;
+}
+
+.textBox {
+  margin: 20px;
+  width: 400px;
+  height: 140px;
+  color: var(--textgrey);
+}
+
+.text {
+  font-size: 15px;
+  letter-spacing: 1px;
+  line-height: 1.6;
+}
+
+.name {
+  font-style: italic;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 1.6;
+}
+
+.company {
+  color: #ff9933;
+  font-style: italic;
+}
+
+.invis {
+  margin: 0;
+  padding: 0;
+  opacity: 0;
+}

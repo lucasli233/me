@@ -1,83 +1,67 @@
 import React from "react";
-import "./Resume.scss";
+import s from "./Resume.module.scss";
 
 const Resume = () => {
+  function ResumeCard(props: any) {
     return (
-        <section id="resume">
-            <div className="resume-title">
-                <h1 className="resume-t1">My </h1>
-                <h1 className="resume-t2">Resume</h1>
-            </div>
-            <div className="resume-content">
-                <div className="edu">
-                    <div className="restext edu">Education</div>
-                    <div className="resbox 1-1">
-                        <p className="inresbox time">March 2019 - Present</p>
-                        <p className="inresbox title">Bachelor of Science</p>
-                        <p className="inresbox des">
-                            Majoring in Computer Science and Logic & Computation.
-                            <br />
-                            GPA: 7/9
-                        </p>
-                        <p className="inresbox entity">
-                            University of Auckland
-                        </p>
-                    </div>
-
-                    <div className="resbox 1-2">
-                        <p className="inresbox time">
-                            February 2018 - October 2018
-                        </p>
-                        <p className="inresbox title">
-                            Bachelor of Engineering with Honours
-                        </p>
-                        <p className="inresbox des">
-                            Majored in Software Engineering. Discontinued and moved to Auckland
-                            after first year.
-                        </p>
-                        <p className="inresbox entity">
-                            Victoria University of Wellington
-                        </p>
-                    </div>
-                </div>
-
-                <div className="exp">
-                    <div className="restext exp">Experiences</div>
-                    <div className="resbox 2-1">
-                        <p className="inresbox time">May 2019 - Present</p>
-                        <p className="inresbox title">
-                            Property Management Assistant
-                        </p>
-                        <p className="inresbox des">
-                            Part-time Airbnb host for a New Zealand based
-                            property management company specializing in
-                            short term rentals.
-                        </p>
-                        <p className="inresbox entity">
-                            Toodle Airbnb Management
-                        </p>
-                    </div>
-
-                    <div className="resbox 2-2">
-                        <p className="inresbox time">
-                            December 2019 - January 2020
-                        </p>
-                        <p className="inresbox title">
-                            Software Testing Intern
-                        </p>
-                        <p className="inresbox des">
-                            Took part in the development of a map labelling
-                            software. <br />
-                            Key responsibilities: Integration, user interface
-                            testing.
-                        </p>
-                        <p className="inresbox entity">
-                            Jiangsu Digitaland Technology Co., Ltd.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
+      <div className={s.resbox}>
+        <p className={s.date}>{props.date}</p>
+        <p className={s.title}>{props.title}</p>
+        <p className={s.des}>
+          {props.des}
+          <br />
+          {props.gpa}
+        </p>
+        <p className={s.entity}>{props.entity}</p>
+      </div>
     );
+  }
+
+  return (
+    <section id="resume" className={s.resume}>
+      <div className="sectionHeader">My Resume</div>
+      <div className="container">
+        <div className={s.edu}>
+          <div className="secondaryTitle">Education</div>
+
+          <ResumeCard
+            date="March 2019 - Present"
+            title="Bachelor of Science"
+            des="Majoring in Computer Science and Logic & Computation."
+            gpa="7/9"
+            entity="University of Auckland"
+          />
+
+          <ResumeCard
+            date="February 2018 - October 2018"
+            title="Bachelor of Engineering with Honours"
+            des="Majored in Software Engineering. Discontinued and moved to
+            Auckland after first year."
+            entity="Victoria University of Wellington"
+          />
+        </div>
+
+        <div className={s.exp}>
+          <div className="secondaryTitle">Experience</div>
+
+          <ResumeCard
+            date="May 2019 - Present"
+            title="Property Management Assistant"
+            des="Part-time Airbnb host for a New Zealand based property management
+            company specializing in short term rentals."
+            entity="Toodle Airbnb Management"
+          />
+
+          <ResumeCard
+            date="December 2019 - January 2020"
+            title="Software Testing Intern"
+            des="Took part in the development of a map labelling software.
+            Key responsibilities: Integration, user interface testing."
+            entity="Jiangsu Digitaland Technology Co., Ltd."
+          />
+        </div>
+      </div>
+    </section>
+  );
 };
 export default Resume;

@@ -1,4 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+
 .App {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  --textgrey: #b3b3b3;
 }
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.profileCircle {
+  height: 75px;
+  width: 75px;
+  background-color: #333333;
+  background-size: cover;
+  background-position: center;
+  object-fit: contain;
+  border-radius: 50%;
+}
+
+.profileCircle.juli {
+  background-image: url("./pages/About/juliana.jpg");
+}
+
+.sectionHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: "Kaushan Script", cursive;
+  font-size: 40px;
+  color: white;
+  text-transform: uppercase;
+  margin: 50px 0;
+}
+
+.secondaryTitle {
+  font-family: "Kaushan Script", cursive;
+  letter-spacing: 1px;
+  font-size: 30px;
+  font-weight: 100;
+  color: white;
+}
+
+ul {
+  margin-top: 0;
+}
+
+.nav {
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  top: 0;
+  letter-spacing: 4px;
+  font-size: 15px;
+  font-weight: 450;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background: transparent;
+  overflow: hidden;
+  transition: 1s;
+}
+
+.nav.active {
+  background-color: #1a1a1a;
+  transition: 1s;
+}
+
