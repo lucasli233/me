@@ -19,7 +19,7 @@ const Resume = () => {
 
   return (
     <section id="resume" className={s.resume}>
-      <div className="sectionHeader">My Resume</div>
+      <div className="sectionHeader">Resume</div>
       <div className="container">
         <div className={s.edu}>
           <div className="secondaryTitle">Education</div>

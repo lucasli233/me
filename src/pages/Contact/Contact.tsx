@@ -29,7 +29,7 @@ const Contact = () => {
   const [modalIsOpen, setModalIsOpen] = useState(false);
   return (
     <section id="contact" className={s.contact}>
-      <div className="sectionHeader"> Get In Touch</div>
+      <div className="sectionHeader"> Get  In  Touch</div>
       <div className="container">
         <div className={s.touch}>
           <div className="secondaryTitle">Email Me</div>

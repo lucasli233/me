@@ -22,7 +22,7 @@ const About = () => {
 
   return (
     <section id="about" className={s.about}>
-      <div className="sectionHeader">ABOUT ME</div>
+      <div className="sectionHeader">ABOUT  ME</div>
       <div className="container">
         <div className={s.photo}></div>
 
