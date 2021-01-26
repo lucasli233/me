@@ -1,18 +1,33 @@
 .portfolio {
-    background-color: #1a1a1a;
-    min-height: calc(100vh - 80px);
-    color: white;
-  }
+  background-color: #1a1a1a;
+  min-height: calc(100vh - 80px);
+  color: white;
 
-  .portfolioContainer {
-    display: grid;
-    justify-content: center;
-    grid-gap: 30px;
-    grid-template-columns: repeat(3, auto);
-  }
+}
 
-  .portfolioCard{
-      display: flex;
-      flex-direction: column;
+.portfolioContainer {
+  display: grid;
+  justify-content: center;
+  grid-gap: 30px;
+  grid-template-columns: repeat(3, auto);
 
-  }
+}
+
+.portfolioCard {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  margin: 1rem auto 0.5rem auto;
+  text-decoration: none;
+}
+
+.desc {
+  margin: 0 auto;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}

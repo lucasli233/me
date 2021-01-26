@@ -85,7 +85,7 @@ const About = () => {
                     Juliana Durán, Supervisor "
             company="@ Toodle Ltd."
           />
-          <div className={s.invis}><TestimonialCard picture="profileCircle"/></div>
+          <div className="invis"><TestimonialCard picture="profileCircle"/></div>
         </div>
       </div>
     </section>

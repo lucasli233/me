@@ -1,6 +1,7 @@
 .about {
   background-color: #1a1a1a;
   min-height: calc(100vh - 80px);
+  padding-bottom: 100px;
 }
 
 .photo {
@@ -138,10 +139,4 @@ ul {
 .company {
   color: #ff9933;
   font-style: italic;
-}
-
-.invis {
-  margin: 0;
-  padding: 0;
-  opacity: 0;
 }
