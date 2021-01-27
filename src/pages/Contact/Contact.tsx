@@ -88,6 +88,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      <p className={s.copyRight}>© 2021 by Lucas Li</p>
     </section>
   );
 };
