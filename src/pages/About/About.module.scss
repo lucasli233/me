@@ -93,7 +93,6 @@ ul {
 .testiCard {
   display: flex;
   flex-direction: col;
-  text-align: justify;
 }
 
 .chatBubble {
@@ -127,6 +126,7 @@ ul {
   font-size: 15px;
   letter-spacing: 1px;
   line-height: 1.6;
+  text-align: left;
 }
 
 .name {
