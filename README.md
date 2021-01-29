@@ -1,6 +1,6 @@
 https://lucasli233.github.io/react-portfolio
 
-
+![alt text](https://github.com/lucasli233/react-portfolio/blob/main/public/portfolio.png?raw=true)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
