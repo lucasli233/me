@@ -8,6 +8,7 @@ import { NavBar, Main, About, Resume, Contact, Portfolio } from "./pages";
 function App() {
   return (
     <div className="App">
+      <div className="mobile"></div>
       <NavBar />
       <Main />
       <Portfolio />

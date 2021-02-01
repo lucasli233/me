@@ -2,16 +2,16 @@
   background-color: #1a1a1a;
   min-height: calc(100vh - 80px);
   color: white;
-
 }
+
 
 .portfolioContainer {
   display: grid;
   justify-content: center;
   grid-gap: 30px;
   grid-template-columns: repeat(3, auto);
-
 }
+
 
 .portfolioCard {
   display: flex;
