@@ -19,6 +19,8 @@ import { NavBar, Main, About, Resume, Contact, Portfolio } from "./pages";
 // }
 
 function App() {
+  const [width, setWidth] = React.useState(window.innerWidth);
+  const [height, setHeight] = React.useState(window.innerHeight);
   return (
     <div className="App">
       <div className="mobile"></div>

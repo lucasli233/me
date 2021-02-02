@@ -78,9 +78,7 @@ const About = () => {
         <div className={s.testiContainer}>
           <TestimonialCard
             picture="profileCircle juli"
-            text="His assertive attitude is always very helpful in a range of
-                    different situations. Anyone who has him in his team can
-                    consider very lucky as you can always count on him."
+            text="His positive can-do attitude is an asset to any situation. Anyone who is lucky enough to have Lucas as part of their team will have gained a hardworking, conscientious employee."
             name="
                     Juliana Durán, Supervisor "
             company="@ Toodle Ltd."
