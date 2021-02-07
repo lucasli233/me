@@ -81,7 +81,7 @@ const About = () => {
             text="His positive can-do attitude is an asset to any situation. Anyone who is lucky enough to have Lucas as part of their team will have gained a hardworking, conscientious employee."
             name="
                     Juliana Durán, Supervisor "
-            company="@ Toodle Ltd."
+            company="@Toodle Ltd."
           />
           {/* <div className="invis"><TestimonialCard picture="profileCircle"/></div> */}
         </div>
