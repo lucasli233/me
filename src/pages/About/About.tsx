@@ -35,19 +35,19 @@ const About = () => {
             <span>What I like to do in my spare time:</span>
 
             <ul>
-              <li>Learning more about technology, science, and philosophy🤓</li>
+              <li>Learning more about technology, science, and philosophy 🤓</li>
 
               <li>
-                Reading📖 and watching a lot of critically acclaimed films🎬
+                Reading 📖 watching a lot of critically acclaimed films 🎬
               </li>
               <li>
-                Listening to a wide range of music: classical🎻, rock🎸,
-                techno🎧
+                Listening to a wide range of music: classical 🎻rock 🎸
+                techno 🎧
               </li>
               <li>
-                Watching fashion shows🧥 and looking for new clothes to buy👞
+                Watching fashion shows 🧥 looking for new clothes to buy 👞
               </li>
-              <li>Working out at the gym🏋️‍♂️</li>
+              <li>Working out at the gym 🏋️‍♂️</li>
             </ul>
           </p>
           <div className={s.btnbox}>
