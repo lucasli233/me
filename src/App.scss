@@ -6,14 +6,15 @@
   --textgrey: #b3b3b3;
 }
 
-@media screen and (max-width: 1050px) {
-  .mobile {
-    height: 100vh;
-    width: 100vw;
-    background-image: url("./mobile.png");
-    background-size: cover;
-    background-position: center;
-  }
+.mobile {
+  color: #b3b3b3;
+  background-color: #1a1a1a;
+  height: 100vh;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center
 }
 
 .container {
