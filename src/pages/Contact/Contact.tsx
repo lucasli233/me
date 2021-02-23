@@ -6,6 +6,11 @@ import {
   faLinkedin,
   faFacebookSquare,
   faGithubSquare,
+  faInstagram,
+  faInstagramSquare,
+  faFacebook,
+  faGithub,
+  faLinkedinIn,
 } from "@fortawesome/free-brands-svg-icons";
 import s from "./Contact.module.scss";
 
@@ -75,13 +80,16 @@ const Contact = () => {
           </p>
           <div className={s.social}>
             <a href="https://www.linkedin.com/in/lucasli233/">
-              <FontAwesomeIcon icon={faLinkedin} />
+              <FontAwesomeIcon icon={faLinkedinIn} />
             </a>
             <a href="https://github.com/lucasli233/">
-              <FontAwesomeIcon icon={faGithubSquare} />
+              <FontAwesomeIcon icon={faGithub} />
             </a>
             <a href="https://www.facebook.com/LucasShengqiLi/">
-              <FontAwesomeIcon icon={faFacebookSquare} />
+              <FontAwesomeIcon icon={faFacebook} />
+            </a>
+            <a href="https://www.instagram.com/__lucass_li__/">
+              <FontAwesomeIcon icon={faInstagram} />
             </a>
           </div>
         </div>
