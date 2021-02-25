@@ -29,7 +29,7 @@ const About = () => {
         <div className={s.descBox}>
           <p className={s.desc1}>
             Intellectually curious, tech & science passionate. <br />
-            Enjoy solve problem solving, and a self-learner.
+            Enjoy problem solving, and a self-learner.
           </p>
           <p className={s.desc2}>
             <span>What I like to do in my spare time:</span>
