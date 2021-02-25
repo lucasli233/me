@@ -1,4 +1,4 @@
-https://lucasli233.github.io/react-portfolio
+https://lucasli233.github.io/me
 
 ![alt text](https://github.com/lucasli233/react-portfolio/blob/master/public/portfolio.png?raw=true)
 
