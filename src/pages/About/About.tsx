@@ -48,8 +48,7 @@ const About = () => {
                 Reading 📖 watching a lot of critically acclaimed films 🎬
               </li>
               <li>
-                Listening to a wide range of music: classical 🎻rock 🎸 techno
-                🎧
+                Listening to a wide range of music: classical 🎻 rock 🎸techno 🎧
               </li>
               <li>
                 Watching fashion shows 🧥 looking for new clothes to buy 👞
