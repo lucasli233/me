@@ -28,21 +28,26 @@ const About = () => {
 
         <div className={s.descBox}>
           <p className={s.desc1}>
-            Intellectually curious, tech & science passionate. <br />
-            Enjoy problem solving, and a self-learner.
+            Soon to be grad with BSc in CompSci and LogiComp.
+            <br />
+            Intellectually curious, tech & science passionate.
+            <br />
+            I constantly strive to improve and upskill myself.
           </p>
           <p className={s.desc2}>
             <span>What I like to do in my spare time:</span>
 
             <ul>
-              <li>Learning more about technology, science, and philosophy 🤓</li>
+              <li>
+                Learning more about technology, science, and philosophy 🤓
+              </li>
 
               <li>
                 Reading 📖 watching a lot of critically acclaimed films 🎬
               </li>
               <li>
-                Listening to a wide range of music: classical 🎻rock 🎸
-                techno 🎧
+                Listening to a wide range of music: classical 🎻rock 🎸 techno
+                🎧
               </li>
               <li>
                 Watching fashion shows 🧥 looking for new clothes to buy 👞
