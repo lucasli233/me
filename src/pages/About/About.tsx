@@ -33,7 +33,6 @@ const About = () => {
               <li>I am Intellectually curious, tech & science passionate.</li>
               <li>I am extremely responsible and meticulous.</li>
               <li>I constantly strive to improve and upskill myself.</li>
-              
             </ul>
           </p>
           <p className={s.desc2}>
@@ -48,7 +47,8 @@ const About = () => {
                 Reading 📖 watching a lot of critically acclaimed films 🎬
               </li>
               <li>
-                Listening to a wide range of music: classical 🎻 rock 🎸techno 🎧
+                Listening to a wide range of music: classical 🎻 rock 🎸techno
+                🎧
               </li>
               <li>
                 Watching fashion shows 🧥 looking for new clothes to buy 👞
@@ -68,7 +68,7 @@ const About = () => {
             </Link>
             <a
               style={{ display: "table-cell" }}
-              href="https://drive.google.com/file/d/1ylii34k-vwLn98Wtoi1JvkAdKPwnkKNm/view?usp=sharing"
+              href="https://drive.google.com/file/d/1Ezns3Lo2eFnfCNCSVRY_MnC9apAm0Ska/view?usp=sharing"
               target="_blank"
               // download
               className={s.cvBtn}
