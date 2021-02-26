@@ -68,7 +68,7 @@ const Contact = () => {
 
         <div className={s.detailsBox}>
           <div className="secondaryTitle">My Contact Details</div>
-          <p className={(s.titleEmail)}>EMAIL</p>
+          <p className={s.titleEmail}>EMAIL</p>
           <p className={s.content}>sli.lucas233@gmail.com</p>
           <p className={s.title}>PHONE</p>
           <p className={s.content}>+64 022 1977 164</p>
@@ -79,7 +79,7 @@ const Contact = () => {
             Auckland 1010
           </p>
           <div className={s.social}>
-            <a href="https://www.linkedin.com/in/lucasli233/">
+            <a href="https://www.linkedin.com/in/lucaslinz/">
               <FontAwesomeIcon icon={faLinkedinIn} />
             </a>
             <a href="https://github.com/lucasli233/">
