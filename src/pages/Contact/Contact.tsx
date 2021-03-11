@@ -11,6 +11,7 @@ import {
   faFacebook,
   faGithub,
   faLinkedinIn,
+  faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 import s from "./Contact.module.scss";
 
@@ -84,6 +85,9 @@ const Contact = () => {
             </a>
             <a href="https://github.com/lucasli233/">
               <FontAwesomeIcon icon={faGithub} />
+            </a>
+            <a href="https://twitter.com/lucasli_nz/">
+              <FontAwesomeIcon icon={faTwitter} />
             </a>
             <a href="https://www.facebook.com/LucasShengqiLi/">
               <FontAwesomeIcon icon={faFacebook} />
