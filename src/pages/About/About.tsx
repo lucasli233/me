@@ -68,7 +68,7 @@ const About = () => {
             </Link>
             <a
               style={{ display: "table-cell" }}
-              href="https://drive.google.com/file/d/12fPIDOXHEL787q-UywRRWlPHkh1faaK3/view?usp=sharing"
+              href="https://drive.google.com/file/d/1AEE9s4s2RY77vByvmkqckIyAlvxxSgeA/view?usp=sharing"
               target="_blank"
               // download
               className={s.cvBtn}
