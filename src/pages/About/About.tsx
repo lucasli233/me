@@ -1,6 +1,6 @@
-import React from "react";
-import s from "./About.module.scss";
-import { Link } from "react-scroll";
+import React from "react"
+import s from "./About.module.scss"
+import { Link } from "react-scroll"
 
 const About = () => {
   function TestimonialCard(props: any) {
@@ -17,7 +17,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    );
+    )
   }
 
   return (
@@ -93,7 +93,7 @@ const About = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default About;
+export default About
