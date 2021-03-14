@@ -28,6 +28,12 @@ const Portfolio = () => {
           title="Todo List"
           desc="React"
         />
+        <PortfolioCard
+          link="https://lucasli233.github.io/js-calculator/"
+          picture="portfolioPic calc"
+          title="Calculator"
+          desc="VanillaJS"
+        />
       </div>
     </section>
   );
