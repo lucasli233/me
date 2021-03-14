@@ -1,5 +1,5 @@
-import React from "react";
-import s from "./Portfolio.module.scss";
+import React from "react"
+import s from "./Portfolio.module.scss"
 
 const Portfolio = () => {
   function PortfolioCard(props: any) {
@@ -9,7 +9,7 @@ const Portfolio = () => {
         <div className={s.title}>{props.title}</div>
         <div className={s.desc}>{props.desc}</div>
       </div>
-    );
+    )
   }
 
   return (
@@ -36,7 +36,7 @@ const Portfolio = () => {
         />
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Portfolio;
+export default Portfolio
