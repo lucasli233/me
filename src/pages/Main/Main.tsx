@@ -8,7 +8,7 @@ const Main = () => {
             <div className={s.titlebox}>
                 <div className={s.p1}>Hello, I'm</div>
                 <div className={s.p2}>Lucas Li</div>
-                <div className={s.p3}>AND THIS IS MY RESUME</div>
+                <div className={s.p3}>AND THIS IS MY PORTFOLIO</div>
             </div>
         </section>
     );
