@@ -30,9 +30,9 @@ const About = () => {
           <p className={s.desc1}>
             Soon to be grad with BSc in CompSci and LogiComp.
             <ul>
-              <li>I am Intellectually curious, tech & science passionate.</li>
-              <li>I am extremely responsible and meticulous.</li>
-              <li>I constantly strive to improve and upskill myself.</li>
+              <li>Intellectually curious, tech & science passionate.</li>
+              <li>Extremely responsible and meticulous.</li>
+              <li>Constantly strive to improve and upskill myself.</li>
             </ul>
           </p>
           <p className={s.desc2}>
