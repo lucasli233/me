@@ -1,11 +1,14 @@
 import React from "react"
 import s from "./Portfolio.module.scss"
+import calc from "./calc.png"
+import todolist from "./todolist.jpg"
+import watchlist from "./watchlist.jpg"
 
 const Portfolio = () => {
   function PortfolioCard(props: any) {
     return (
       <div className={s.portfolioCard}>
-        <a className={props.picture} href={props.link}></a>
+        <img className={s.portfolioPic} src={props.image} alt=""/>
         <div className={s.title}>{props.title}</div>
         <div className={s.desc}>{props.desc}</div>
       </div>
@@ -18,19 +21,19 @@ const Portfolio = () => {
       <div className={s.portfolioContainer}>
         <PortfolioCard
           link="https://lucasli233.github.io/react-movie-watchlist-v1/"
-          picture="portfolioPic watchlist"
+          image={watchlist}
           title="Movie Watchlist"
           desc="React"
         />
         <PortfolioCard
           link="https://lucasli233.github.io/react-todo-v1/"
-          picture="portfolioPic todolist"
+          image={todolist}
           title="Todo List"
           desc="React"
         />
         <PortfolioCard
           link="https://lucasli233.github.io/js-calculator/"
-          picture="portfolioPic calc"
+          image={calc}
           title="Calculator"
           desc="VanillaJS"
         />

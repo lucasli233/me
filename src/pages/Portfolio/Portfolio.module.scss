@@ -12,6 +12,18 @@
   grid-template-columns: repeat(3, auto);
 }
 
+.portfolioPic {
+  width: 300px;
+  object-fit: cover;
+  border: 2px solid var(--textgrey);
+  border-radius: 15px;
+}
+
+.portfolioPic:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
 
 .portfolioCard {
   display: flex;

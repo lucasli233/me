@@ -3,11 +3,7 @@ import emailjs from "emailjs-com";
 import Modal from "react-modal";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faLinkedin,
-  faFacebookSquare,
-  faGithubSquare,
   faInstagram,
-  faInstagramSquare,
   faFacebook,
   faGithub,
   faLinkedinIn,

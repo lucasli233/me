@@ -1,9 +1,8 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Link, animateScroll } from "react-scroll";
 
 const NavBar = () => {
   const [navbar, setNavbar] = useState(false);
-  const [] = useState(false);
 
   const changeBackground = () => {
     if (window.scrollY >= 50) {

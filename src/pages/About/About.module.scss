@@ -4,14 +4,10 @@
   padding-bottom: 100px;
 }
 
-.photo {
+.fit1 {
   margin-right: 40px;
   margin-top: 15px;
-  width: 500px;
   height: 350px;
-  background-image: url("./fit1.jpg");
-  background-size: cover;
-  background-position: center;
   border-radius: 15px;
 }
 
@@ -47,10 +43,12 @@
 ul {
   margin: 0;
 }
+
 .btnbox {
   display: flex;
   flex-direction: col;
   justify-content: center;
+  margin-top: 10px;
 }
 
 .cvBtn,
@@ -96,6 +94,17 @@ ul {
   flex-direction: col;
 }
 
+.profileCircle {
+  height: 75px;
+  width: 75px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+// .profileCircle.juli {
+//   background-image: url("./pages/About/juliana.jpg");
+// }
+
 .chatBubble {
   background-color: #333333;
   width: 450px;
@@ -140,4 +149,8 @@ ul {
 .company {
   color: #ff9933;
   font-style: italic;
+}
+
+.empty{
+  width: 555px;
 }

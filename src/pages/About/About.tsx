@@ -1,12 +1,15 @@
 import React from "react"
 import s from "./About.module.scss"
 import { Link } from "react-scroll"
+import fit1 from "./fit1.jpg"
+import juliana from "./juliana.jpg"
+import Emoji from "./Emoji"
 
 const About = () => {
   function TestimonialCard(props: any) {
     return (
       <div className={s.testiCard}>
-        <div className={props.picture}></div>
+        <img src={props.picture} alt="" className={s.profileCircle} />
         <div className={s.chatBubble}>
           <div className={s.textBox}>
             <p className={s.text}>{props.text}</p>
@@ -24,38 +27,51 @@ const About = () => {
     <section id="about" className={s.about}>
       <div className="sectionHeader">ABOUT ME</div>
       <div className="container">
-        <div className={s.photo}></div>
-
+        <img
+          src={fit1}
+          className={s.fit1}
+          alt="guy in black hat and jacket"
+        ></img>
         <div className={s.descBox}>
-          <p className={s.desc1}>
+          <span className={s.desc1}>
             Soon to be grad with BSc in CompSci and LogiComp.
             <ul>
               <li>Intellectually curious, tech & science passionate.</li>
               <li>Extremely responsible and meticulous.</li>
               <li>Constantly strive to improve and upskill myself.</li>
             </ul>
-          </p>
-          <p className={s.desc2}>
+          </span>
+          <span className={s.desc2}>
             <span>What I like to do in my spare time:</span>
 
             <ul>
               <li>
-                Learning more about technology, science, and philosophy 🤓
+                Learning more about technology, science, and philosophy{" "}
+                <Emoji symbol="🤓" label="nerdface" />
               </li>
 
               <li>
-                Reading 📖 watching a lot of critically acclaimed films 🎬
+                Reading <Emoji symbol="📖" label="book" /> watching a lot of
+                critically acclaimed films <Emoji symbol="🎬" label="movie" />
               </li>
               <li>
-                Listening to a wide range of music: classical 🎻 rock 🎸techno
-                🎧
+                Listening to a wide range of music: classical{" "}
+                <Emoji symbol="🎻" label="violin" /> rock{" "}
+                <Emoji symbol="🎸" label="guitat" />
+                techno
+                <Emoji symbol="🎧" label="headset" />
               </li>
               <li>
-                Watching fashion shows 🧥 looking for new clothes to buy 👞
+                Watching fashion shows <Emoji symbol="🧥" label="jacket" />{" "}
+                looking for new clothes to buy{" "}
+                <Emoji symbol="👞" label="shoes" />
               </li>
-              <li>Working out at the gym 🏋️‍♂️</li>
+              <li>
+                Working out at the gym{" "}
+                <Emoji symbol="🏋️‍♂️" label="weightlifting" />
+              </li>
             </ul>
-          </p>
+          </span>
           <div className={s.btnbox}>
             <Link
               className={s.contactBtn}
@@ -68,9 +84,9 @@ const About = () => {
             </Link>
             <a
               style={{ display: "table-cell" }}
-              href="https://drive.google.com/file/d/1AEE9s4s2RY77vByvmkqckIyAlvxxSgeA/view?usp=sharing"
+              href="https://drive.google.com/file/d/1gOYnWV-sSYLtpaTPSHdwmqFxrIFSx247/view?usp=sharing"
               target="_blank"
-              // download
+              rel="noopener noreferrer"
               className={s.cvBtn}
             >
               DOWNLOAD CV
@@ -83,13 +99,12 @@ const About = () => {
         <div className="sectionHeader">Testimonials</div>
         <div className={s.testiContainer}>
           <TestimonialCard
-            picture="profileCircle juli"
+            picture={juliana}
             text="His positive can-do attitude is an asset to any situation. Anyone who is lucky enough to have Lucas as part of their team will have gained a hardworking, conscientious employee."
-            name="
-                    Juliana Durán, Supervisor "
+            name="Juliana Durán, Supervisor "
             company="@Toodle Ltd."
           />
-          {/* <div className="invis"><TestimonialCard picture="profileCircle"/></div> */}
+          <span className={s.empty} />
         </div>
       </div>
     </section>

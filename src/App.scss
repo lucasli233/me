@@ -48,37 +48,6 @@
   opacity: 0;
 }
 
-// Portfolio
-
-.portfolioPic {
-  width: 300px;
-  height: 300px;
-  background-color: white;
-  background-size: cover;
-  background-position: center;
-  object-fit: contain;
-  border-radius: 15px;
-  border-style: solid;
-  border-width: 2px;
-  border-color: var(--textgrey);
-}
-
-.portfolioPic:hover {
-  opacity: 0.7;
-  cursor: pointer;
-}
-
-.portfolioPic.watchlist {
-  background-image: url("./pages/Portfolio/watchlist.png");
-}
-
-.portfolioPic.todolist {
-  background-image: url("./pages/Portfolio/todolist.png");
-}
-
-.portfolioPic.calc {
-  background-image: url("./pages/Portfolio/calc.png");
-}
 
 // About
 
@@ -94,10 +63,6 @@
 
 .profileCircle.juli {
   background-image: url("./pages/About/juliana.jpg");
-}
-
-ul {
-  margin-top: 0;
 }
 
 // NavBar
