@@ -1,110 +1,107 @@
-@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
-
 .App {
-  display: flex;
-  flex-direction: column;
-  --textgrey: #b3b3b3;
+	display: flex;
+	flex-direction: column;
+	--textgrey: #b3b3b3;
 }
 
 .mobile {
-  color: #b3b3b3;
-  background-color: #1a1a1a;
-  height: 100vh;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center
+	color: #b3b3b3;
+	background-color: #1a1a1a;
+	height: 100vh;
+	font-size: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
 }
 
 .container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin: 0;
-  padding: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
 }
 
 .sectionHeader {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  font-size: 40px;
-  font-weight: 100;
-  color: white;
-  text-transform: uppercase;
-  margin: 50px 0;
-  white-space: pre;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	font-size: 40px;
+	font-weight: 100;
+	color: white;
+	text-transform: uppercase;
+	margin: 50px 0;
+	white-space: pre;
 }
 
 .secondaryTitle {
-  letter-spacing: 1px;
-  font-size: 30px;
-  font-weight: 100;
-  color: white;
+	letter-spacing: 1px;
+	font-size: 30px;
+	font-weight: 100;
+	color: white;
 }
 
 .invis {
-  opacity: 0;
+	opacity: 0;
 }
-
 
 // About
 
 .profileCircle {
-  height: 75px;
-  width: 75px;
-  background-color: #333333;
-  background-size: cover;
-  background-position: center;
-  object-fit: contain;
-  border-radius: 50%;
+	height: 75px;
+	width: 75px;
+	background-color: #333333;
+	background-size: cover;
+	background-position: center;
+	object-fit: contain;
+	border-radius: 50%;
 }
 
 .profileCircle.juli {
-  background-image: url("./pages/About/juliana.jpg");
+	background-image: url("./pages/About/juliana.jpg");
 }
 
 // NavBar
 .nav {
-  position: fixed;
-  width: 100%;
-  height: 80px;
-  display: flex;
-  top: 0;
-  letter-spacing: 4px;
-  font-size: 15px;
-  font-weight: 450;
-  box-sizing: border-box;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  background: transparent;
-  overflow: hidden;
-  transition: 1s;
-  z-index: 99;
+	position: fixed;
+	width: 100%;
+	height: 80px;
+	display: flex;
+	top: 0;
+	letter-spacing: 4px;
+	font-size: 15px;
+	font-weight: 450;
+	box-sizing: border-box;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	background: transparent;
+	overflow: hidden;
+	transition: 1s;
+	z-index: 99;
 }
 
 .nav.active {
-  background-color: #1a1a1a;
-  transition: 1s;
+	background-color: #1a1a1a;
+	transition: 1s;
 }
 
 .link.active {
-  color: #ff9933;
+	color: #ff9933;
 }
 
 .link,
 .link.active {
-  cursor: pointer;
-  /* margin-top: 1em; */
+	cursor: pointer;
+	/* margin-top: 1em; */
 }
 
 .link:hover {
-  color: #ff9933;
-  transition: 0.5s;
+	color: #ff9933;
+	transition: 0.5s;
 }
 
 .link {
-  margin: 0 10px;
+	margin: 0 10px;
 }
