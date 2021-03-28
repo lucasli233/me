@@ -40,7 +40,7 @@ const Contact = () => {
               <input type="text" placeholder="Your Name" name="name" />
               <input type="email" placeholder="Your Email" name="email" />
               <input type="text" placeholder="Subject" name="subject" />
-              <textarea rows={5} placeholder="Write a Message" name="message" />
+              <textarea rows={6} placeholder="Write a Message" name="message" />
               <input
                 type="submit"
                 value="SEND MESSAGE"
@@ -71,8 +71,8 @@ const Contact = () => {
           <p className={s.content}>+64 022 1977 164</p>
           <p className={s.title}>ADDRESS</p>
           <p className={s.content}>
-            8B/33 Mount Street <br />
-            Auckland CBD <br />
+            19 Nicholls Ln <br />
+            Parnell <br />
             Auckland 1010
           </p>
           <div className={s.social}>
