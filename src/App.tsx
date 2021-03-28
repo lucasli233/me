@@ -28,8 +28,7 @@ function Desktop() {
 function App() {
 	const w = window.innerWidth
 	// console.log(w);
-	if (w >= 1040) return <Desktop />
-	else return <Mobile />
+	return w >= 1040 ? <Desktop /> : <Mobile />
 }
 
 export default App
