@@ -17,6 +17,7 @@ const Resume = () => {
     );
   }
 
+  
   return (
     <section id="resume" className={s.resume}>
       <div className="sectionHeader">Resume</div>
