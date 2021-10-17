@@ -80,7 +80,7 @@ const About = () => {
               duration={1000}
               offset={-80}
             >
-              HIRE ME
+              CONTACT ME
             </Link>
             <a
               style={{ display: "table-cell" }}
