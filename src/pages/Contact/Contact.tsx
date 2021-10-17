@@ -88,7 +88,7 @@ const Contact = () => {
             <a href="https://www.facebook.com/LucasShengqiLi/">
               <FontAwesomeIcon icon={faFacebook} />
             </a>
-            <a href="https://www.instagram.com/__lucass_li__/">
+            <a href="https://www.instagram.com/lucassli_/">
               <FontAwesomeIcon icon={faInstagram} />
             </a>
           </div>
